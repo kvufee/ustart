@@ -100,7 +100,7 @@ header.fixed #logo {
 /*если захотеть, то можно высрать background-image: url()*/
 #top {
 	width: 100%;
-	height: 1000px;
+	height: 100%;
 	background-color: #f2f3f4;
 	background-blend-mode: multiply;
 	background-size: cover;
