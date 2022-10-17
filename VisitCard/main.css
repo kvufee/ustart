@@ -1,3 +1,4 @@
+/*Шапка, кнопки, лого, скрипты и шрифты*/
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Righteous&family=Ubuntu:wght@300;500;700&display=swap');
 
 * {
@@ -10,9 +11,9 @@ body, html {
 	width: 100%;
 	height: 100%;
 }
-
+/*заголовок + тело + корректировка шапки*/
 body {
-	background-color: #000;
+	background-color: #fff;
 	font-family: Trebuchet MS, Helvetica;
 }
 
@@ -25,7 +26,7 @@ header {
 }
 
 header #logo {
-	color: #fff;
+	color: #000;
 	cursor: pointer;
 }
 
@@ -49,6 +50,7 @@ header #logo span{
 	}
 }
 
+/*кнопки справа от логотипа*/
 @media (max-width: 700px) {
 	#logo {
 		margin-top: 15px;
@@ -63,6 +65,7 @@ header #logo span{
 	}
 }
 
+/*кликабельность кнопок (меняют цвет при наведении)*/
 #about {
 	text-align: right;
 	font-size: 1em;
@@ -70,7 +73,7 @@ header #logo span{
 	margin-bottom: 10px;
 }
 
-#about > a {color: #fff}
+#about > a {color: #000}
 #about > a:hover {
 	color: #b0b0b0;
 	text-decoration: underline;
@@ -80,6 +83,7 @@ header #logo span{
 	margin-right: 7%;
 }
 
+/*стили шапки*/
 .fixed {
 	z-index: 5000;
 	background-color: #fff;
@@ -92,3 +96,41 @@ header.fixed #logo {
 
 .fixed #about a {color: #343434}
 .fixed #about a: hover; {color: #7c7c7c}
+
+/*если захотеть, то можно высрать background-image: url()*/
+#top {
+	width: 100%;
+	height: 1000px;
+	background-color: #f2f3f4;
+	background-blend-mode: multiply;
+	background-size: cover;
+	text-align: center;
+	color: #000;
+	font-size: 2.5em;
+}
+
+/*чтобы красиво было фон делаль внатуре уцышка лее*/
+@media (max-width: 1001px) {
+	#top {
+		font-size: 2.5em;
+	}
+}
+@media (max-width: 1000px) and (min-width: 651px) {
+	#top {
+		font-size: 1.75em;
+	}
+}
+@media (min-width: 650px) {
+	#top {
+		font-size: 1.25em;
+		padding-top: 50%;
+	}
+}
+
+#top h1 {
+	padding: 15%;
+}
+
+#top h2 {
+	color: #000;
+}

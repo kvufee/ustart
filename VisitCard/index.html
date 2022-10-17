@@ -21,10 +21,15 @@
 		</div>
 	</header>
 
+	<div id = "top">
+		<h1>Вставить текст</h1>
+		<h2>Вставить текст</h2>
+	</div>
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<script>
 		function slowScroll(id) {
-			$('body').animate({
+			$('html, body').animate({
 				scrollTop: $(id).offset().top
 			}, 500);
 		}
