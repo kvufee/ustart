@@ -1,2 +1,2 @@
-# ustart
-A project for future 
+# UStart
+Currently developing site
