@@ -166,6 +166,12 @@ header.fixed #logo {
 	}
 }
 
+@media (max-width: 650px) {
+	#main div {
+		width: 88%!important;
+	}
+}
+
 #main div {
 	width: 48%;
 	margin-right: 2%;
