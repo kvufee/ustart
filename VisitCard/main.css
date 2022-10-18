@@ -73,7 +73,10 @@ header #logo span{
 	margin-bottom: 10px;
 }
 
-#about > a {color: #000}
+#about > a {
+	color: #000;
+}
+
 #about > a:hover {
 	color: #b0b0b0;
 	text-decoration: underline;
@@ -94,8 +97,13 @@ header.fixed #logo {
 	color: #343434;
 }
 
-.fixed #about a {color: #343434}
-.fixed #about a: hover; {color: #7c7c7c}
+.fixed #about a {
+	color: #343434;
+}
+
+.fixed #about a: hover; {
+	color: #7c7c7c
+}
 
 /*если захотеть, то можно высрать background-image: url()*/
 #top {
@@ -144,4 +152,18 @@ header.fixed #logo {
 	border-top: 2px solid silver;
 	color: #484848;
 	font-size: 1.3em;
+}
+
+#main div {
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+}
+
+#main h2 {
+	font-size: 3em;
+}
+
+#main span {
+	color: #a0a0a0;
 }
