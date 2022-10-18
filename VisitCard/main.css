@@ -134,3 +134,14 @@ header.fixed #logo {
 #top h2 {
 	color: #000;
 }
+
+/*блок снизу с доп текстом*/
+#main {
+	padding: 100px 20%;
+	width: 60%;
+	float: left;
+	background-color: #f6f6f6;
+	border-top: 2px solid silver;
+	color: #484848;
+	font-size: 1.3em;
+}
