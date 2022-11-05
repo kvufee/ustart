@@ -109,7 +109,7 @@ header.fixed #logo {
 #top {
 	width: 100%;
 	height: 100%;
-	background-image: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+	background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
 	background-blend-mode: multiply;
 	background-size: cover;
 	text-align: center;
@@ -191,8 +191,8 @@ header.fixed #logo {
 #contacts {
 	width: 100%;
 	float: left;
-	padding-bottom: 40px;
-	padding-top: 75px;
+	padding-bottom: 10px;
+	padding-top: 50px;
 	border-top: 4px solid silver;
 	background-color: #f4f4f4;
 }
@@ -255,4 +255,66 @@ h1, h2, h3, h4, h5 {
 
 .btn:hover {
 	background-color: #013220;
+}
+
+/*блок ПОЧЕМУ МЫ?*/
+
+#overview {
+
+	float: left;
+	background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+
+	background-blend-mode: multiply;
+	background-color: #4f1c75;
+	background-size: cover;
+	background-attachment: fixed;
+
+	padding: 100px 0;
+	width: 100%;
+	text-align: center;
+	color: #ffff;
+	
+}
+
+#overview h2 {font-size: 3em};
+#overview h4 {color: #a0a0a0; font-size: 1.2em};
+
+#overview .img {
+
+	float: left;
+	width: 20%;
+	margin-right: 5%;
+	margin-top: 50px;
+
+}
+
+#overview img {
+
+	background: #fafafa;
+	padding: 5px;
+	border: 2px solid silver;
+	float: left;
+	width: 100%;
+	max-width: 500px;
+
+}
+
+#overview span {
+
+	float: left;
+	width: 100%;
+	font-size: 1.5em;
+	margin-top: 10px;
+	color: #ffff;
+
+}
+
+@media (max-width: 700px) {
+
+	#overview .img {
+		width: 80%!important;
+		margin-right: 0!important;
+		margin-left: 10%!important;
+
+	}
 }
