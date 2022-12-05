@@ -31,7 +31,7 @@ header #logo {
 }
 
 header #logo span{
-	font-size: 2em;
+	font-size: 1.7em;
 	line-height: 45px;
 	margin-left: 3px;
 	font-family: 'Nunito', serif;
@@ -39,28 +39,29 @@ header #logo span{
 
 @media (min-width: 701px) {
 	#logo {
-		float: left;
-		width: 35%;
+		float: middle;
+		width: 30%;
 		font-size: 1.1em;
 	}
 
 	#about {
-		float: left;
-		width: 50%;
+		float: right;
+		width: 60%;
+		margin-right: 20px;
 	}
 }
 
 /*кнопки справа от логотипа*/
 @media (max-width: 700px) {
 	#logo {
+		float: middle;
 		margin-top: 10px;
-		float: left;
 		width: 100%;
-		font-size: 1.5em;
+		font-size: 1.1em;
 	}
 
 	#about {
-		float: left;
+		float: right;
 		width: 100%;
 	}
 }
@@ -101,42 +102,42 @@ header.fixed #logo {
 	color: #343434;
 }
 
-.fixed #about a: hover; {
+.fixed #about a : hover; {
 	color: #7c7c7c
 }
 
 /*если захотеть, то можно высрать background-image: url()*/
 #top {
 	width: 100%;
-	height: 100%;
+	height: 1000px;
 	background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
 	background-blend-mode: multiply;
 	background-size: cover;
 	text-align: center;
 	color: #fff;
-	font-size: 2.5em;
+	font-size: 1.5em;
 }
 
 /*чтобы красиво было фон делаль внатуре уцышка лее*/
-@media (max-width: 1001px) {
+@media (min-width: 1001px) {
 	#top {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 }
 @media (max-width: 1000px) and (min-width: 651px) {
 	#top {
-		font-size: 1.75em;
+		font-size: 3em;
 	}
 }
 @media (min-width: 650px) {
 	#top {
-		font-size: 1.25em;
-		padding-top: 20%;
+		font-size: 2em;
+		padding-top: 50%;
 	}
 }
 
 #top h1 {
-	padding: 0%;
+	padding: 20%;
 }
 
 #top h2 {
@@ -168,7 +169,7 @@ header.fixed #logo {
 
 @media (max-width: 650px) {
 	#main div {
-		width: 88%!important;
+		width: 80%!important;
 		margin-bottom: 15px;
 	}
 }
@@ -318,3 +319,4 @@ h1, h2, h3, h4, h5 {
 
 	}
 }
+
