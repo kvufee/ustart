@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5 {
 
 #form_input {
 	margin-left: 15px;
-	width: 30%;
+	width: 25%;
 	margin-left: 38%;
 	font-size: 1.1em;
 }
@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5 {
 .btn {
 	float: left;
 	border-radius: 5px;
-	padding: 5px 9px;
+	padding: 5px 10px;
 	font-size: 1em;
 	background-color: #00ff00;
 	text-shadow: #454545 0 0 2px;
