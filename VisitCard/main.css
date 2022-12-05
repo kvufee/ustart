@@ -34,7 +34,7 @@ header #logo span{
 	font-size: 2em;
 	line-height: 45px;
 	margin-left: 3px;
-	font-family: 'Righteous', serif;
+	font-family: 'Nunito', serif;
 }
 
 @media (min-width: 701px) {
@@ -288,18 +288,12 @@ h1, h2, h3, h4, h5 {
 
 }
 
-#overview .img:nth-child(even) {
-
-	margin-left: 15%;
-
-}
-
 #overview img {
 
 	background: #fafafa;
 	padding: 5px;
 	border: 2px solid silver;
-	float: left;
+	float: middle;
 	width: 100%;
 	max-width: 500px;
 
