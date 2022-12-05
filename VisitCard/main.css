@@ -53,7 +53,7 @@ header #logo span{
 /*кнопки справа от логотипа*/
 @media (max-width: 700px) {
 	#logo {
-		margin-top: 15px;
+		margin-top: 10px;
 		float: left;
 		width: 100%;
 		font-size: 1.5em;
@@ -285,6 +285,12 @@ h1, h2, h3, h4, h5 {
 	width: 20%;
 	margin-right: 5%;
 	margin-top: 50px;
+
+}
+
+#overview .img:nth-child(even) {
+
+	margin-left: 15%;
 
 }
 

@@ -29,9 +29,6 @@
 	</div>
 
 	<!-- ДОП ИНФА СНИЗУ -->	
-	<div class="text">
-		<span></span><br>
-	</div>
 
 	<div id="overview">
 		<h1>Почему мы?</h1>
@@ -81,7 +78,7 @@
 		function slowScroll(id) {
 			$('html, body').animate({
 				scrollTop: $(id).offset().top
-			}, 500);
+			}, 10);
 		}
 
 		$(document).on("scroll", function () {
